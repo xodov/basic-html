@@ -46,9 +46,86 @@ header nav ul button {
     background: orange;
     border-radius: 5px;
     font-size: larger;
+    border: 0;
+    padding: 9px 17px;
 }
 
 header nav ul button:hover {
     background: red;
-    transition: all 500ms ease;
+    cursor: pointer;
+    transition: all 600ms ease;
+}
+
+header nav ul li:not(.active):not(button) a:hover {
+    border-bottom: 5px solid orange;
+}
+
+main {
+    padding: 2.5%;
+}
+
+main h2 {
+    color: orange;
+    width: 550px;
+}
+
+main h1 {
+    color: white;
+    width: 550px;
+}
+
+main h1 b {
+    color: orange;
+}
+
+main p {
+    color: white;
+    width: 550px;
+}
+
+main .btn1 {
+    color: white;
+    background: orange;
+    border-radius: 50px;
+    font-size: larger;
+    border: 0;
+    padding: 15px 30px;
+}
+
+main .btn1:hover {
+    background: red;
+    cursor: pointer;
+    transition: all 600ms ease;
+}
+
+main img {
+    margin-top: -300px;
+    width: 550px;
+    height: 350px;
+    float: right;
+}
+
+main .btn2 {
+    color: white;
+    background: orange;
+    border-radius: 50px;
+    font-size: larger;
+    border: 0;
+    padding: 15px 30px;
+}
+
+main .btn2:hover {
+    background: red;
+    cursor: pointer;
+    transition: all 600ms ease;
+}
+
+main .img2 {
+    float: left;
+    margin-top: 50px;
+}
+
+main .container {
+    margin-top: 50px;
+    float: right;
 }
