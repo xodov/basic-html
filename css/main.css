@@ -18,6 +18,7 @@ header nav span {
 header nav ul {
     float: right;
     margin-top: 5px;
+    width: auto;
 }
 
 header nav ul a {
