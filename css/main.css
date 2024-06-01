@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(0deg, rgba(255, 143, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    width: auto;
+}
+
+header {
+    padding: 2.5%;
+}
+
+header nav span {
+    font-size: 30px;
+    text-transform: lowercase;
+    font-size: 29px;
+    font-weight: 800;
+    color: orange;
+}
+
+header nav ul {
+    float: right;
+    margin-top: 5px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: larger;
+    padding-inline: 20px;
+}
+
+header nav ul li.active::after {
+    content: '';
+    display: block;
+    width: auto;
+    height: 5px;
+    background: orange;
+}
+
+header nav ul button {
+    color: white;
+    background: orange;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+header nav ul button:hover {
+    background: red;
+    transition: all 500ms ease;
+}
