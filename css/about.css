@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(0deg, rgba(255, 143, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    width: auto;
+}
+
+header {
+    padding: 2.5%;
+}
+
+header nav span {
+    font-size: 30px;
+    text-transform: lowercase;
+    font-size: 29px;
+    font-weight: 800;
+    color: orange;
+}
+
+header nav ul {
+    float: right;
+    margin-top: 5px;
+    width: auto;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: larger;
+    padding-inline: 20px;
+}
+
+header nav ul li.active::after {
+    content: '';
+    display: block;
+    width: auto;
+    height: 5px;
+    background: orange;
+}
+
+header nav ul button {
+    color: white;
+    background: orange;
+    border-radius: 5px;
+    font-size: larger;
+    border: 0;
+    padding: 9px 17px;
+}
+
+header nav ul button:hover {
+    background: red;
+    cursor: pointer;
+    transition: all 600ms ease;
+}
+
+header nav ul li:not(.active):not(button) a:hover {
+    border-bottom: 5px solid orange;
+}
+
+main {
+    text-align: center;
+}
+
+main img {
+    width: 550px;
+    margin-top: 45px;
+}
+
+main h1 {
+    color: white;
+}
+
+main h1 b {
+    color: orange;
+}
+
+main p {
+    color: white;
+}
+
+footer {
+    margin-top: 50px;
+    width: auto;
+    height: 200px;
+    background: orange;
+    text-align: center;
+    border: 5px solid black;
+    color: black;
+}
