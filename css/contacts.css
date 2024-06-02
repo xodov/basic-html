@@ -76,12 +76,25 @@ main img {
 
 main .paragraph1 {
     color: greenyellow;
+    margin-top: 350px;
+    font-size: 40px;
 }
 
 main .paragraph2 {
     color: white;
+    font-size: 40px;
 }
 
 main h2 a {
     text-decoration: none;
+}
+
+footer {
+    margin-top: 450px;
+    width: auto;
+    height: 200px;
+    background: orange;
+    text-align: center;
+    border: 5px solid black;
+    color: black;
 }

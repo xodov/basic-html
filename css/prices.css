@@ -62,4 +62,15 @@ header nav ul li:not(.active):not(button) a:hover {
 
 main h1 {
     width: 550px;
+    color: white;
+}
+
+footer {
+    margin-top: 50px;
+    width: auto;
+    height: 200px;
+    background: orange;
+    text-align: center;
+    border: 5px solid black;
+    color: black;
 }
