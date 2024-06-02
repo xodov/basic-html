@@ -129,3 +129,13 @@ main .container {
     margin-top: 50px;
     float: right;
 }
+
+footer {
+    margin-top: 450px;
+    width: auto;
+    height: 200px;
+    background: orange;
+    text-align: center;
+    border: 5px solid black;
+    color: black;
+}
