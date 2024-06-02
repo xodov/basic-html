@@ -65,25 +65,28 @@ main {
     padding: 2.5%;
 }
 
-main img {
-    width: 550px;
-    margin-top: 45px;
-}
-
 main h1 {
     color: white;
 }
 
-main h1 b {
-    color: orange;
+main video {
+    width: 1000px;
 }
 
-main p {
-    color: white;
+main .img4 {
+    width: 550px;
+    height: 350px;
+    float: left;
+}
+
+main .img5 {
+    width: 550px;
+    height: 350px;
+    float: right;
 }
 
 footer {
-    margin-top: 50px;
+    margin-top: 450px;
     width: auto;
     height: 200px;
     background: orange;

@@ -60,34 +60,6 @@ header nav ul li:not(.active):not(button) a:hover {
     border-bottom: 5px solid orange;
 }
 
-main {
-    text-align: center;
-    padding: 2.5%;
-}
-
-main img {
-    width: 550px;
-    margin-top: 45px;
-}
-
 main h1 {
-    color: white;
-}
-
-main h1 b {
-    color: orange;
-}
-
-main p {
-    color: white;
-}
-
-footer {
-    margin-top: 50px;
-    width: auto;
-    height: 200px;
-    background: orange;
-    text-align: center;
-    border: 5px solid black;
-    color: black;
+    width: 550px;
 }

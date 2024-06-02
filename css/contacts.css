@@ -61,33 +61,27 @@ header nav ul li:not(.active):not(button) a:hover {
 }
 
 main {
-    text-align: center;
     padding: 2.5%;
-}
-
-main img {
-    width: 550px;
-    margin-top: 45px;
 }
 
 main h1 {
     color: white;
+    text-align: center;
 }
 
-main h1 b {
-    color: orange;
+main img {
+    float: left;
+    width: 550px;
 }
 
-main p {
+main .paragraph1 {
+    color: greenyellow;
+}
+
+main .paragraph2 {
     color: white;
 }
 
-footer {
-    margin-top: 50px;
-    width: auto;
-    height: 200px;
-    background: orange;
-    text-align: center;
-    border: 5px solid black;
-    color: black;
+main h2 a {
+    text-decoration: none;
 }
